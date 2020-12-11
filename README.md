@@ -1,5 +1,5 @@
 # Differences-between-sealed-class-and-enum
-DIFFERENCES BETWEEN ENUM AND SEALED CLASS
+##  DIFFERENCES BETWEEN ENUM AND SEALED CLASS
 An enum is a special "class" that represents a group of constants (unchangeable variables, like final variables).
 To create an enum, the enum keyword is used (instead of class or interface), and the constants are separate with a comma. The constants in an enum should be in uppercase letters. 
 Example:
@@ -22,14 +22,14 @@ Example:
 		}
 	}
 A sealed class like other classes can have attributes and methods but cannot instantiate an object.
-SUMMARY
+## SUMMARY
 1.	The major difference between enum and sealed class is that enum can have just a single instance, whereas a subclass of a sealed class can have multiple instances.
 2.	A sealed class can be extended whereas, an enum cannot be extended.
 3.	Child classes of a sealed class can be of different types like: data, object or normal class
 4.	A sealed class can extends other classes but an enum can only implement interfaces.
 5.	A sealed class is created with the sealed class keyword while an enum is created with the enum keyword.  
 
-REFERENCES
+## REFERENCES
 1.	Java Enums: https://www.w3schools.com/java/java_enums.asp
 2.	Enums Types(The Java™ Tutorials): https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
 3.	Kotlin Sealed Classes: https://www.studytonight.com/kotlin/kotlin-sealed-class#
